@@ -1,0 +1,81 @@
+.exec-container {
+  padding: 40px;
+  color: white;
+}
+
+.exec-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: #a78bfa;
+}
+
+.exec-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.exec-controls input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 80px;
+}
+
+.exec-controls button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: white;
+}
+
+.terminal {
+  background: #0f172a;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 800px;
+  margin: auto;
+}
+
+.terminal-header {
+  background: #1e293b;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.red { background: #ef4444; }
+.yellow { background: #facc15; }
+.green { background: #22c55e; }
+
+.title {
+  margin-left: 10px;
+  color: #94a3b8;
+}
+
+.terminal-body {
+  padding: 15px;
+  font-family: monospace;
+}
+
+.log-line {
+  color: #22c55e;
+}
+
+.loading {
+  color: #38bdf8;
+}
+
+.empty {
+  color: #64748b;
+}
