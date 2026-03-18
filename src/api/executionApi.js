@@ -7,9 +7,7 @@ export const startExecution = async (workflowId, inputObj) => {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      inputData: JSON.stringify(inputObj), // 🔥 IMPORTANT
-    }),
+    body: JSON.stringify({ inputData: inputObj }), // Wrap it inside inputData
   });
 
   if (!res.ok) {
